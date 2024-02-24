@@ -15,8 +15,8 @@ Typing Tycoon is a fun and interactive typing game where players can improve the
 To play Typing Tycoon, simply open the index.html file in your web browser and select a difficulty level to start typing. The game will generate a random paragraph for you to type, and you'll receive immediate feedback on your accuracy and speed.
 
 bash
-git clone https://github.com/yourusername/typing-tycoon.git
-cd typing-tycoon
+git clone https://github.com/rohan-medikonda/Typing-Tycoon.git
+cd Typing-Tycoon
 
 
 ## How to Play

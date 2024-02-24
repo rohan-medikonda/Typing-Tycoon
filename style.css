@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.highlight {
+background-color: coral;
+}
+
+h1 {
+    color: black;
+}
+
+.difficulty {
+    margin-bottom: 20px;
+}
+
+.difficulty-button {
+    background-color: peach;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.difficulty-button:hover {
+    background-color: coral;
+    border-color: coral;
+}
+
+.game {
+    margin-top: 50px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+#paragraph {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: black;
+}
+
+textarea.correct {
+    border-color: green;
+}
+
+textarea.incorrect {
+    border-color: red;
+}
+
+#gameOverSection {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Add the same styling as difficulty buttons to the Play Again button */
+#playAgain {
+    background-color: peach;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#playAgain:hover {
+    background-color: coral;
+    border-color: coral;
+}
+
+@media screen and (max-width: 600px) {
+    textarea {
+        height: 100px;
+    }
+}

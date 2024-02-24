@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Tycoon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Tycoon</h1>
+        <div class="difficulty">
+            <button class="difficulty-button" id="easy">Easy</button>
+            <button class="difficulty-button" id="medium">Medium</button>
+            <button class="difficulty-button" id="hard">Hard</button>
+        </div>
+        <div class="game" id="gameSection">
+            <p id="paragraph">Press a difficulty level to start typing...</p>
+            <textarea id="typingArea" placeholder="Start typing here..." disabled></textarea>
+        </div>
+        <div id="gameOverSection" style="display: none;">
+    <h2>Game Over!</h2>
+    <p id="scoreMessage"></p>
+    <button class="difficulty-button" id="playAgain">Play Again</button>
+</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
